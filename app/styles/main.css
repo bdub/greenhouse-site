@@ -204,3 +204,13 @@ form .response {
     border: 0 solid green;
     padding: 20px;
 }
+
+.event-2016-may {
+    background-color: #CAE1F9;
+    background: #CAE1F9 url("/images/uri-muri3.jpg") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
+
+
