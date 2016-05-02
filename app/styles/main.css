@@ -177,6 +177,12 @@ padding-top: 30px;
 
 }
 
+.event-details a {
+color: #fff ;
+text-decoration: underline;
+}
+
+
 .speakers li {
 padding : 5px;
 }
