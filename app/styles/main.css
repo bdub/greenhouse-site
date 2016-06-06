@@ -218,5 +218,12 @@ form .response {
     padding:50px 0;
     color: #fff ;
 }
+.event-2016-june {
+    background-color: #CAE1F9;
+    background: #CAE1F9 url("/images/canberra-lawn.png") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
 
 
