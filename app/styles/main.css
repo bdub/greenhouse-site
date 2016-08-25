@@ -225,5 +225,17 @@ form .response {
     padding:50px 0;
     color: #fff ;
 }
-
-
+.event-2016-july {
+    background-color: #CAE1F9;
+    background: #CAE1F9 url("/images/future-cities_archer.jpg") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
+.event-2016-august {
+    background-color: #CAE1F9;
+    background: #D33F00 url("/images/app-for-that-frog.jpg") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
