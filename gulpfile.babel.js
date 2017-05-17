@@ -5,8 +5,24 @@ import browserSync from 'browser-sync';
 import del from 'del';
 import {stream as wiredep} from 'wiredep';
 
+var rsync = require('gulp-rsync');
+
+
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
+
+gulp.task('deploy', () => {
+  return gulp.src('dist/**')
+    .pipe(rsync({
+      root: 'dist/',
+      username: 'greenhouseau',
+      hostname: 'greenhouse.org.au',
+      destination: 'greenhouse.org.au/public/',
+      archive: true,
+      silent: false,
+      compress: true
+    }));
+});
 
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.css')
