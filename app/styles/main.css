@@ -70,36 +70,6 @@ padding :0;
 margin: 0;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-
-
-  h1 {
-  font-size : 36px;
-  }
-
-}
 
 .launch-event{
     background-color: #CAE1F9;
@@ -115,6 +85,17 @@ margin: 0;
 
 .greenhouse-logo {
     padding:20px 20px 0 20px;
+}
+.greenhouse-logo-header {
+    max-height: 30px;
+    float: left;
+    padding: 0 5px;
+    margin-top: -5px;
+}
+
+span.title {
+font-weight: 400;
+color: black;
 }
 
 .ticket-btn {
@@ -246,5 +227,106 @@ form .response {
     background-size : cover;
     padding:50px 0;
     color: #fff ;
+}
+
+.event-2017-may {
+    background:  url("/images/digital-ferns.jpg") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
+.event-2017-june {
+    background:  url("/images/vivid-lights-spiderweb2.jpg") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
+
+.event-2017-july {
+    background:  url("/images/digital-fern_purple.jpg") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
+.event-2017-august {
+    background:  url("/images/blockchain_web.jpg") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
+.event-2017-september {
+    background:  url("/images/neurons_web.jpg") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
+.event-2017-october{
+    background:  url("/images/digital-ferns.jpg") no-repeat center;
+    background-size : cover;
+    padding:50px 0;
+    color: #fff ;
+}
+
+table.event-summary {
+	width: 90%;
+	margin: auto;
+}
+
+table.event-summary td {
+vertical-align: top;
+padding: 1em;
+}
+
+.summary-date {
+	font-weight: bold;
+	white-space: nowrap;
+	}
+
+	
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+
+.intro  h1 {
+  font-size : 2.7em;
+  }
+
+.intro td, .intro p , p.sponsorintro{
+ font-size: 1.4em;
+}
+}
+p.sponsorintro{
+padding : 1em 0;
+
+}
+p.speaker-intro {
+padding: 1em 0;
+font-style : italic;
+color: grey ; 
+}
+
+.event ul {
+padding-left : 1em;
 }
 
